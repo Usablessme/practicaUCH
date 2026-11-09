@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" modified="2026-11-09" agent="Codex" version="24.7.17">
+  <diagram id="office-plan" name="План офиса">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="Умный офис - план помещения" style="text;html=1;fontSize=20;fontStyle=1;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="40" y="25" width="600" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="office" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#ffffff;strokeColor=#1f2937;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="1180" height="650" as="geometry"/>
+        </mxCell>
+        <mxCell id="working" value="Рабочая зона" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=10;spacingLeft=12;fontStyle=1;fillColor=#e8f1fb;strokeColor=#5b8db8;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="500" height="300" as="geometry"/>
+        </mxCell>
+        <mxCell id="meeting" value="Переговорная" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=10;spacingLeft=12;fontStyle=1;fillColor=#f4eee4;strokeColor=#a78b5b;" vertex="1" parent="1">
+          <mxGeometry x="580" y="110" width="300" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="server" value="Серверная" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;spacingTop=10;spacingLeft=12;fontStyle=1;fillColor=#f9e3e3;strokeColor=#b45d5d;" vertex="1" parent="1">
+          <mxGeometry x="900" y="110" width="280" height="460" as="geometry"/>
+        </mxCell>
+        <mxCell id="corridor" value="Коридор" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fontStyle=1;fillColor=#f3f4f6;strokeColor=#9ca3af;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="820" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="entry" value="Входная зона" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=middle;align=center;fontStyle=1;fillColor=#e8f5e9;strokeColor=#70a97b;" vertex="1" parent="1">
+          <mxGeometry x="60" y="570" width="240" height="140" as="geometry"/>
+        </mxCell>
+        <mxCell id="window1" value="Окно" style="shape=mxgraph.basic.line;strokeWidth=5;strokeColor=#4f9bd6;" vertex="1" parent="1"><mxGeometry x="120" y="103" width="120" height="8" as="geometry"/></mxCell>
+        <mxCell id="window2" value="Окно" style="shape=mxgraph.basic.line;strokeWidth=5;strokeColor=#4f9bd6;" vertex="1" parent="1"><mxGeometry x="350" y="103" width="120" height="8" as="geometry"/></mxCell>
+        <mxCell id="desk1" value="Стол + ПК" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b5563;" vertex="1" parent="1"><mxGeometry x="100" y="175" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="desk2" value="Стол + ПК" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b5563;" vertex="1" parent="1"><mxGeometry x="300" y="175" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="desk3" value="Стол + ПК" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b5563;" vertex="1" parent="1"><mxGeometry x="200" y="290" width="150" height="60" as="geometry"/></mxCell>
+        <mxCell id="chairs" value="Стулья" style="shape=ellipse;whiteSpace=wrap;html=1;fillColor=#d1d5db;strokeColor=#6b7280;" vertex="1" parent="1"><mxGeometry x="125" y="245" width="35" height="25" as="geometry"/></mxCell>
+        <mxCell id="hum" value="HUM\nдатчик влажности" style="shape=mxgraph.basic.ellipse;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;" vertex="1" parent="1"><mxGeometry x="455" y="300" width="85" height="55" as="geometry"/></mxCell>
+        <mxCell id="conference" value="Стол переговоров" style="shape=mxgraph.basic.ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#4b5563;" vertex="1" parent="1"><mxGeometry x="630" y="185" width="200" height="70" as="geometry"/></mxCell>
+        <mxCell id="cabinet1" value="Сетевой шкаф" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#dbeafe;strokeColor=#2563eb;" vertex="1" parent="1"><mxGeometry x="930" y="180" width="100" height="70" as="geometry"/></mxCell>
+        <mxCell id="cabinet2" value="Серверный шкаф" style="shape=mxgraph.basic.rect;whiteSpace=wrap;html=1;fillColor=#fee2e2;strokeColor=#dc2626;" vertex="1" parent="1"><mxGeometry x="1050" y="180" width="100" height="70" as="geometry"/></mxCell>
+        <mxCell id="temp" value="TEMP\nдатчик температуры" style="shape=mxgraph.basic.ellipse;whiteSpace=wrap;html=1;fillColor=#fef3c7;strokeColor=#d97706;" vertex="1" parent="1"><mxGeometry x="930" y="320" width="105" height="60" as="geometry"/></mxCell>
+        <mxCell id="fan" value="FAN\nвентилятор" style="shape=mxgraph.basic.ellipse;whiteSpace=wrap;html=1;fillColor=#dcfce7;strokeColor=#16a34a;" vertex="1" parent="1"><mxGeometry x="1050" y="320" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="iot1" value="Умная лампа" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;" vertex="1" parent="1"><mxGeometry x="85" y="455" width="100" height="35" as="geometry"/></mxCell>
+        <mxCell id="iot2" value="Умная розетка" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;" vertex="1" parent="1"><mxGeometry x="200" y="455" width="110" height="35" as="geometry"/></mxCell>
+        <mxCell id="iot3" value="Камера" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;" vertex="1" parent="1"><mxGeometry x="325" y="455" width="90" height="35" as="geometry"/></mxCell>
+        <mxCell id="iot4" value="Колонка" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;" vertex="1" parent="1"><mxGeometry x="430" y="455" width="90" height="35" as="geometry"/></mxCell>
+        <mxCell id="iot5" value="Умный замок" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;" vertex="1" parent="1"><mxGeometry x="535" y="455" width="105" height="35" as="geometry"/></mxCell>
+        <mxCell id="iot6" value="Дисплей" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;" vertex="1" parent="1"><mxGeometry x="660" y="455" width="90" height="35" as="geometry"/></mxCell>
+        <mxCell id="iot7" value="Датчик качества воздуха" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;" vertex="1" parent="1"><mxGeometry x="770" y="455" width="100" height="35" as="geometry"/></mxCell>
+        <mxCell id="socket1" value="Розетка" style="shape=mxgraph.basic.ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6b7280;" vertex="1" parent="1"><mxGeometry x="340" y="120" width="65" height="30" as="geometry"/></mxCell>
+        <mxCell id="socket2" value="Розетка" style="shape=mxgraph.basic.ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6b7280;" vertex="1" parent="1"><mxGeometry x="450" y="120" width="65" height="30" as="geometry"/></mxCell>
+        <mxCell id="door1" value="Дверь" style="shape=mxgraph.basic.arc;whiteSpace=wrap;html=1;strokeColor=#374151;" vertex="1" parent="1"><mxGeometry x="545" y="420" width="70" height="20" as="geometry"/></mxCell>
+        <mxCell id="door2" value="Дверь" style="shape=mxgraph.basic.arc;whiteSpace=wrap;html=1;strokeColor=#374151;" vertex="1" parent="1"><mxGeometry x="875" y="230" width="25" height="70" as="geometry"/></mxCell>
+        <mxCell id="line-hum" value="условная линия подключения" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;strokeColor=#2563eb;endArrow=none;" edge="1" parent="1" source="hum" target="cabinet1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="line-temp" value="условная линия подключения" style="edgeStyle=orthogonalEdgeStyle;rounded=0;dashed=1;strokeColor=#d97706;endArrow=none;" edge="1" parent="1" source="temp" target="fan"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="legend" value="Легенда: TEMP - температура; HUM - влажность; FAN - вентилятор; пунктир - условная линия подключения" style="text;html=1;align=left;verticalAlign=middle;fontSize=11;fontColor=#374151;" vertex="1" parent="1"><mxGeometry x="320" y="610" width="820" height="55" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
